@@ -1,13 +1,32 @@
+// Dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { BrowserRouter } from 'react-router-dom';
+import dotenv from 'dotenv';
+import dotenvExpand from 'dotenv-expand';
 import reportWebVitals from './reportWebVitals';
 
+// Styles
+import './index.css';
+
+// Context
+import { ContextProvider } from './context/Context';
+
+// Components
+import App from './components/App/App';
+
+// Env
+const myEnv = dotenv.config();
+dotenvExpand(myEnv);
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ContextProvider>
+    <BrowserRouter>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </BrowserRouter>
+  </ContextProvider>,
   document.getElementById('root')
 );
 
