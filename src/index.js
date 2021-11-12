@@ -13,7 +13,7 @@ import './index.css';
 import { ContextProvider } from './context/Context';
 
 // Components
-import App from './components/App/App';
+import App from './App';
 
 // Env
 const myEnv = dotenv.config();
