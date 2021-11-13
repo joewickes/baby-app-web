@@ -24,24 +24,32 @@ function App() {
           </div>
         </section>
       </header>
-      <section>
-        <div>LOGO</div>
-        <div>Current Stats</div>
+
+      <section className="Main">
+        <div className="title-group">
+          <h1>
+            <b>BABY</b>APP
+          </h1>
+          <ul className="age">
+            <li>{`${'1'} months, `}</li>
+            <li>{`${'2'} weeks,`}</li>
+            <li>{`${'3'} days`}</li>
+          </ul>
+        </div>
+
+        <div className="Schedule">
+          <ul>
+            <li>Blue Heading</li>
+            <li>Gray entry</li>
+            <li>White entry</li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <li>
-          <div>Blue Heading</div>
-          <div>Gray entry</div>
-          <div>White entry</div>
-        </li>
-      </section>
-      <section>
-        <footer>
-          <div></div>
-          <button>+</button>
-          <div></div>
-        </footer>
-      </section>
+      <footer>
+        <div></div>
+        <button>+</button>
+        <div></div>
+      </footer>
       <section>AD SPACE</section>
     </div>
   );

@@ -1,6 +1,7 @@
 .App {
   height: 100vh;
   background-color: #ffffff;
+  font-family: sans-serif;
 }
 
 /* Colors */
@@ -13,8 +14,20 @@ Schedule Gray - #ededed
 Schedule White - #f7f7f7
 */
 
+h1 {
+  font-weight: 300;
+  font-size: 35px;
+  margin: 0px;
+}
+
 p {
   margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
 }
 
 .pointer {
@@ -56,4 +69,24 @@ p {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.Main {
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+.title-group {
+  padding-bottom: 15px;
+}
+
+.age {
+  display: flex;
+  flex-direction: row wrap;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.age li {
+  padding-right: 5px;
 }
