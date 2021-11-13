@@ -2,22 +2,35 @@
   height: 100vh;
   background-color: #ffffff;
   font-family: sans-serif;
+  color: #5b5b5b;
 }
 
 /* Colors */
 /* 
 White - #ffffff
 Gray - #5b5b5b
-Header Light Blue = #9fcdc9
-Light Blue - #d1ebe8
-Schedule Gray - #ededed
-Schedule White - #f7f7f7
+Light Blue (Icons) = #9ad2cb
+Month,Weeks,Days - #5a978f
+Light Gray (Schedule) - #f7f7f7
+darker Gray (Schedule) - #eeeded
+
+Color Wheel:
+pink - #DB5461
+yellow - #FED766
+blue - #3581B8
+brown - #AA8574
+purple - #7E4E70
+blue - #259393
+green - #04724D
+red - #830B33
+
 */
 
 h1 {
   font-weight: 300;
   font-size: 35px;
   margin: 0px;
+  color: #5b5b5b;
 }
 
 p {
@@ -48,9 +61,6 @@ ul {
   display: flex;
 }
 
-.baby-img-container {
-}
-
 .header-icon-container {
   height: 28px;
   width: 28px;
@@ -60,7 +70,7 @@ ul {
 .header-icon {
   height: 100% !important;
   width: 100% !important;
-  color: #9fcdc9 !important;
+  color: #9ad2cb !important;
 }
 
 .header-right {
@@ -89,4 +99,5 @@ ul {
 
 .age li {
   padding-right: 5px;
+  color: #5a978f;
 }

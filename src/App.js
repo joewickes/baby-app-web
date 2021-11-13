@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="Header">
         <section className="header-left">
-          <div className="baby-img-container">
+          <div>
             <div className="header-icon-container pointer">
               <AccountCircleSharp className="header-icon" />
             </div>
@@ -31,7 +31,7 @@ function App() {
             <b>BABY</b>APP
           </h1>
           <ul className="age">
-            <li>{`${'1'} months, `}</li>
+            <li>{`${'1'} months,`}</li>
             <li>{`${'2'} weeks,`}</li>
             <li>{`${'3'} days`}</li>
           </ul>
