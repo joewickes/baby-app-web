@@ -28,6 +28,7 @@ p {
   justify-content: space-between;
   height: 6vh;
   background-color: #5b5b5b;
+  padding: 0px 15px;
 }
 
 .header-left {
