@@ -1,8 +1,58 @@
 .App {
   height: 100vh;
-  background-color: #fff;
+  background-color: #ffffff;
 }
+
+/* Colors */
+/* 
+White - #ffffff
+Gray - #5b5b5b
+Header Light Blue = #9fcdc9
+Light Blue - #d1ebe8
+Schedule Gray - #ededed
+Schedule White - #f7f7f7
+*/
 
 p {
   margin: 0px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* Header */
+.Header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 6vh;
+  background-color: #5b5b5b;
+}
+
+.header-left {
+  display: flex;
+}
+
+.baby-img-container {
+}
+
+.header-icon-container {
+  height: 28px;
+  width: 28px;
+  padding: 5px;
+}
+
+.header-icon {
+  height: 100% !important;
+  width: 100% !important;
+  color: #9fcdc9 !important;
+}
+
+.header-right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }

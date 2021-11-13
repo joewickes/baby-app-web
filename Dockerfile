@@ -12,17 +12,15 @@ COPY ./public ./public
 
 COPY ./src ./src
 
-RUN npm run test
-
 RUN npm run build
 
 CMD ["npm", "start", "watch"]
 
 # Production
-FROM node:10.11.0-jessie
+# FROM node:10.11.0-jessie
 
-RUN npm install -g serve
+# RUN npm install -g serve
 
-COPY --from=dev /app/build build
+# COPY --from=dev /app/build build
 
-CMD ["serve", "-s", "build"]
+# CMD ["serve", "-s", "build"]
