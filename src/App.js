@@ -38,10 +38,11 @@ function App() {
         </div>
 
         <div className="Schedule">
+          <h2 className="date">WEDNESDAY, SEPT 24</h2>
           <ul>
-            <li>Blue Heading</li>
-            <li>Gray entry</li>
-            <li>White entry</li>
+            <li className>Gray entry</li>
+            {/* color set by id % 2 === 0 ? darker-gray : lighter-gray */}
+            <li className>White entry</li>
           </ul>
         </div>
       </section>
