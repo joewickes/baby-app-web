@@ -1,8 +1,7 @@
 // style
-import './styles/App.css';
-
 // icon
-import { SyncSharp, AccountCircleSharp } from '@mui/icons-material';
+import { AccountCircleSharp, SyncSharp } from '@mui/icons-material';
+import './styles/App.css';
 
 function App() {
   return (
@@ -40,9 +39,33 @@ function App() {
         <div className="Schedule">
           <h2 className="date">WEDNESDAY, SEPT 24</h2>
           <ul>
-            <li className>Gray entry</li>
+            <li className="gray entry">
+              <div className="schedule-left">
+                <p className="schedule-time">4:00a - 4:07a</p>
+              </div>
+              <div className="schedule-right">
+                <div className="schedule-title-container">
+                  <p className="schedule-title">Sleep</p>
+                </div>
+                <div className="schedule-notes-container">
+                  <p className="schedule-notes">2h 15min</p>
+                </div>
+              </div>
+            </li>
             {/* color set by id % 2 === 0 ? darker-gray : lighter-gray */}
-            <li className>White entry</li>
+            <li className="smoke entry">
+              <div className="schedule-left">
+                <p className="schedule-time">7:00a</p>
+              </div>
+              <div className="schedule-right">
+                <div className="schedule-title-container">
+                  <p className="schedule-title">Temperature</p>
+                </div>
+                <div className="schedule-notes-container">
+                  <p className="schedule-notes">91.4°F</p>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
       </section>

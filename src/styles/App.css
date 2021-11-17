@@ -90,12 +90,11 @@ ul {
 }
 
 .Main {
-  padding: 10px 20px;
   overflow: hidden;
 }
 
 .title-group {
-  padding-bottom: 15px;
+  padding: 10px 20px 15px 20px;
 }
 
 .age {
@@ -108,4 +107,67 @@ ul {
 .age li {
   padding-right: 5px;
   color: #5a978f;
+}
+
+/* Schedule */
+
+.date {
+  margin: 0px;
+  padding: 4px 20px;
+}
+
+.entry {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.gray {
+  background-color: #eeeded;
+}
+
+.smoke {
+  background-color: #f7f7f7;
+}
+
+.schedule-left {
+  padding: 4px 20px;
+  flex: 0.85;
+}
+
+.schedule-time-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.schedule-time {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.schedule-right {
+  flex: 1.15;
+  padding: 4px 20px 4px 0px;
+}
+
+.schedule-title-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.schedule-title {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.schedule-notes-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+.schedule-notes {
+  font-weight: 300;
+  font-size: 12px;
 }
