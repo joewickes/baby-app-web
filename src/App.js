@@ -1,6 +1,7 @@
 // style
 // icon
 import { AccountCircleSharp, SyncSharp } from '@mui/icons-material';
+import { AddCircleSharp } from '@mui/icons-material';
 import './styles/App.css';
 
 function App() {
@@ -70,11 +71,19 @@ function App() {
         </div>
       </section>
       <footer>
-        <div></div>
-        <button>+</button>
-        <div></div>
+        <div className="footer-top">
+          <div className="footer-icons-left"></div>
+          <div className="footer-add-item-icon-container">
+            <AddCircleSharp className="footer-add-item-icon" />
+          </div>
+          <div className="footer-icons-right"></div>
+        </div>
+        <div className="footer-bottom">
+          <div className="ad">
+            <p>AD SPACE</p>
+          </div>
+        </div>
       </footer>
-      <section>AD SPACE</section>
     </div>
   );
 }
