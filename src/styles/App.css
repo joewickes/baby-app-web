@@ -3,6 +3,7 @@
   background-color: #ffffff;
   font-family: sans-serif;
   color: #5b5b5b;
+  width: 100vw;
 }
 
 /* Colors */
@@ -62,9 +63,7 @@ ul {
   justify-content: space-between;
   height: 40px;
   background-color: #5b5b5b;
-  padding: 0px 15px;
   position: fixed;
-  top: 0;
   width: 100%;
 }
 
@@ -90,7 +89,6 @@ ul {
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: auto;
 }
 
 .Main {
@@ -98,7 +96,7 @@ ul {
 }
 
 .title-group {
-  padding: 10px 20px 15px 20px;
+  padding: 50px 20px 15px 20px;
 }
 
 .age {
