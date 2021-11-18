@@ -1,6 +1,10 @@
+body {
+  background-color: #5b5b5b;
+}
+
 .App {
   height: 100vh;
-  background-color: #ffffff;
+  background-color: #5b5b5b;
   font-family: sans-serif;
   color: #5b5b5b;
   width: 100vw;
@@ -93,6 +97,7 @@ ul {
 
 .Main {
   overflow: hidden;
+  background-color: #ffffff;
 }
 
 .title-group {
@@ -114,7 +119,7 @@ ul {
 /* Schedule */
 
 .Schedule {
-  padding-bottom: 101px;
+  padding-bottom: 150px;
 }
 
 .date {
