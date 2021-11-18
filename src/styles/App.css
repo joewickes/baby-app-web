@@ -16,13 +16,13 @@ darker Gray (Schedule) - #eeeded
 
 Color Wheel:
 pink - #DB5461
-yellow - #FED766
-blue - #3581B8
-brown - #AA8574
-purple - #7E4E70
-blue - #259393
-green - #04724D
-red - #830B33
+yellow/pumping - #FED766
+blue/bottle  - #3581B8
+brown/diaper - #AA8574
+purple/sleep - #7E4E70
+blue/bath - #259393
+green/medicine - #04724D
+red/temperature - #830B33
 
 */
 
@@ -60,9 +60,12 @@ ul {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  height: 6vh;
+  height: 40px;
   background-color: #5b5b5b;
   padding: 0px 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header-left {
@@ -87,6 +90,7 @@ ul {
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: auto;
 }
 
 .Main {
@@ -110,6 +114,10 @@ ul {
 }
 
 /* Schedule */
+
+.Schedule {
+  padding-bottom: 101px;
+}
 
 .date {
   margin: 0px;
@@ -153,7 +161,15 @@ ul {
 
 .schedule-title-container {
   display: flex;
+  align-items: center;
   flex-flow: row nowrap;
+}
+
+.schedule-title-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
 }
 
 .schedule-title {
@@ -188,7 +204,7 @@ footer {
   display: flex;
   flex-flow: row nowrap;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: 50px;
 }
 
@@ -197,20 +213,8 @@ footer {
   height: 10px;
 }
 
-.footer-add-item-icon-container {
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: visible;
-  height: 30px;
-  width: 30px;
-  transform: translate(0px, -14px);
-}
-
-.footer-add-item-icon {
-  color: #db5461 !important;
-  font-size: 65px !important;
+.speed-dial-placement {
+  padding-bottom: 58px !important;
 }
 
 .footer-icons-right {
@@ -226,4 +230,8 @@ footer {
   align-items: center;
   height: 50px;
   font-weight: bold;
+}
+
+.MuiSpeedDial-root {
+  padding-bottom: 58px;
 }
